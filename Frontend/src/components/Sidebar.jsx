@@ -80,7 +80,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, userRole }) => {
             initial="hidden"
             animate="visible"
             whileHover="hover"
-            transition={{ delay: index * 0.1 }}
+            // transition={{ delay:  0.1 }}
             onClick={() => setActiveItem(item.id)}
             className={`w-full flex items-center space-x-3 p-3 rounded-xl transition-all duration-200 ${
               activeItem === item.id 

@@ -14,8 +14,8 @@ export const useUser = () => {
 export const UserProvider = ({ children }) => {
   const [user, setUser] = useState({
     id: 1,
-    name: "John Doe",
-    email: "john@businesshub.com",
+    name: "MD. Tariqul Huda",
+    email: "tariqulhuda6@gmail.com",
     role: "admin", // admin, manager, sales, inventory, hr, employee
     avatar: null,
     permissions: [],

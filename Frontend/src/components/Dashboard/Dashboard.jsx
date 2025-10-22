@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { useUser } from '../contexts/UserContext';
-import KPI from './Dashboard/KPI';
-import ChartSection from './Dashboard/ChartSection';
-import Sidebar from './Sidebar';
-import TopBar from './TopBar';
-import { apiService } from '../services/mockData';
+import { useUser } from '../../contexts/UserContext.jsx';
+import KPI from './KPI.jsx';
+import ChartSection from './ChartSection.jsx';
+import Sidebar from '../Sidebar.jsx';
+import TopBar from '../TopBar.jsx';
+import { apiService } from '../../services/mockData.js';
 import { 
   DollarSign, 
   TrendingUp, 

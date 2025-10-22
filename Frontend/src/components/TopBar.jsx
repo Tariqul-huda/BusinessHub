@@ -6,18 +6,22 @@ const TopBar = ({ user }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showNotifications, setShowNotifications] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
-
-  const notifications = [
+  const [notifications, setNotifications] = useState([
     { id: 1, title: "Low Stock Alert", message: "5 items below threshold", time: "2 min ago", type: "warning" },
     { id: 2, title: "New Sale", message: "Order #1234 completed", time: "15 min ago", type: "success" },
     { id: 3, title: "Payroll Due", message: "Monthly payroll processing", time: "1 hour ago", type: "info" }
-  ];
+  ]);
 
   const userMenuItems = [
     { label: "Profile", icon: User },
     { label: "Settings", icon: Settings },
     { label: "Logout", icon: Bell }
   ];
+
+  const handleMarkAllAsRead = () => {
+    setNotifications([]);
+    setShowNotifications(false);
+  };
 
   return (
     <motion.div
@@ -62,35 +66,52 @@ const TopBar = ({ user }) => {
               animate={{ opacity: 1, y: 0 }}
               className="absolute right-0 mt-2 w-80 bg-white rounded-xl shadow-lg border border-gray-200 z-50"
             >
-              <div className="p-4 border-b border-gray-200">
+              <div className="p-4 border-b border-gray-200 flex items-center justify-between">
                 <h3 className="font-semibold text-gray-800">Notifications</h3>
+                {notifications.length > 0 && (
+                  <button 
+                    onClick={handleMarkAllAsRead}
+                    className="text-sm text-blue-600 hover:text-blue-800 font-medium px-3 py-1 rounded-lg hover:bg-blue-50 transition-colors"
+                  >
+                    Mark all as read
+                  </button>
+                )}
               </div>
               <div className="max-h-64 overflow-y-auto">
-                {notifications.map((notification) => (
-                  <motion.div
-                    key={notification.id}
-                    whileHover={{ backgroundColor: "rgba(59, 130, 246, 0.05)" }}
-                    className="p-4 border-b border-gray-100 hover:bg-blue-50 transition-colors"
-                  >
-                    <div className="flex items-start space-x-3">
-                      <div className={`w-2 h-2 rounded-full mt-2 ${
-                        notification.type === 'warning' ? 'bg-yellow-500' :
-                        notification.type === 'success' ? 'bg-green-500' : 'bg-blue-500'
-                      }`}></div>
-                      <div className="flex-1">
-                        <p className="font-medium text-gray-800">{notification.title}</p>
-                        <p className="text-sm text-gray-600">{notification.message}</p>
-                        <p className="text-xs text-gray-400 mt-1">{notification.time}</p>
-                      </div>
+                {notifications.length === 0 ? (
+                  <div className="p-8 text-center">
+                    <div className="text-gray-400 mb-2">
+                      <Bell className="w-8 h-8 mx-auto" />
                     </div>
-                  </motion.div>
-                ))}
+                    <p className="text-gray-500 text-sm">No notifications</p>
+                    <p className="text-gray-400 text-xs mt-1">You're all caught up!</p>
+                  </div>
+                ) : (
+                  notifications.map((notification) => (
+                    <motion.div
+                      key={notification.id}
+                      whileHover={{ backgroundColor: "rgba(59, 130, 246, 0.05)" }}
+                      className="p-4 border-b border-gray-100 hover:bg-blue-50 transition-colors"
+                    >
+                      <div className="flex items-start space-x-3">
+                        <div className={`w-2 h-2 rounded-full mt-2 ${
+                          notification.type === 'warning' ? 'bg-yellow-500' :
+                          notification.type === 'success' ? 'bg-green-500' : 'bg-blue-500'
+                        }`}></div>
+                        <div className="flex-1">
+                          <p className="font-medium text-gray-800">{notification.title}</p>
+                          <p className="text-sm text-gray-600">{notification.message}</p>
+                          <p className="text-xs text-gray-400 mt-1">{notification.time}</p>
+                        </div>
+                      </div>
+                    </motion.div>
+                  ))
+                )}
               </div>
             </motion.div>
           )}
         </div>
 
-        {/* User Menu */}
         <div className="relative">
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -108,7 +129,6 @@ const TopBar = ({ user }) => {
             </div>
           </motion.button>
 
-          {/* User Dropdown */}
           {showUserMenu && (
             <motion.div
               initial={{ opacity: 0, y: -10 }}
