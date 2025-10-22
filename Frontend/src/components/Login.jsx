@@ -1,12 +1,29 @@
-import { Form } from "react-router-dom"
-
+import { useNavigate } from "react-router-dom"
+import { useState } from "react"
+import Toast from "../Utility/Toast"
 
 
 const Login = ()=>{
-
+    const navigate = useNavigate();
+    const [showToast, setShowToast] = useState(false);
+    const [toastMessage, setToastMessage] = useState("");
   
         const handleSubmit = async (event) => {
             event.preventDefault();
+            // Get form data
+            const formData = new FormData(event.currentTarget);
+            const id = formData.get('id') || '';
+            const password = formData.get('password') || '';
+            
+            if (id === 'admin' && password === 'password') {
+                navigate("/dashboard");
+            } else {
+                setToastMessage("Invalid ID or password. Please try again.");
+                setShowToast(true);
+                setTimeout(() => setShowToast(false), 3000);
+            }
+            
+            
             // const formData = new FormData(event.currentTarget);
 
 
@@ -35,6 +52,7 @@ const Login = ()=>{
                     <div>
                         <input 
                             type="text"
+                            name="id"
                             placeholder="Enter your ID" 
                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-white/70"
                         />
@@ -42,6 +60,7 @@ const Login = ()=>{
                     <div>
                         <input 
                             type="password"
+                            name="password"
                             placeholder="Enter your password" 
                             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-white/70"
                         />
@@ -54,6 +73,10 @@ const Login = ()=>{
                     </button>
                 </form>
             </div>
+            
+            {/* Toast Notification */}
+            {showToast && (<Toast message={toastMessage} setShowToast={setShowToast} />)
+            }
         </div>
         </>
     )
