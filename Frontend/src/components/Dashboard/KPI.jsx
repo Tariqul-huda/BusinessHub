@@ -24,9 +24,9 @@ const KPI = ({ title, value, change, icon: Icon, color = "blue", trend = "up" })
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      whileHover={{ scale: 1.02 }}
-      className={`p-6 rounded-2xl border-2 ${colorClasses[color]} shadow-lg hover:shadow-xl transition-all duration-300`}
+      // transition={{ duration: 0.5 }}
+      whileHover={{ scale: 1.10 }}
+      className={`p-6 rounded-2xl border-2 ${colorClasses[color]} shadow-lg hover:shadow-xl transition-all duration-200`}
     >
       <div className="flex items-center justify-between">
         <div className="flex-1">
