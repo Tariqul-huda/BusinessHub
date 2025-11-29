@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { 
   LayoutDashboard, 
   Package, 
@@ -13,8 +14,10 @@ import {
 } from 'lucide-react';
 import { useState } from 'react';
 
+
 const Sidebar = ({ isCollapsed, setIsCollapsed, userRole }) => {
   const [activeItem, setActiveItem] = useState('dashboard');
+  const navigate = useNavigate()
 
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, roles: ['admin', 'manager', 'sales', 'inventory', 'hr', 'employee'] },
@@ -40,7 +43,11 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, userRole }) => {
     visible: { opacity: 1, x: 0 },
     hover: { scale: 1.05, backgroundColor: "rgba(59, 130, 246, 0.1)" }
   };
-
+  const handleItem = (id)=>{
+    setActiveItem(id)
+    // console.log(`/${id}`)
+      navigate(`/${id}`)
+  }
   return (
     <motion.div
       variants={sidebarVariants}
@@ -73,7 +80,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, userRole }) => {
 
       {/* Navigation */}
       <nav className="flex-1 p-4 space-y-2">
-        {filteredMenuItems.map((item, index) => (
+        {filteredMenuItems.map((item) => (
           <motion.button
             key={item.id}
             variants={itemVariants}
@@ -81,7 +88,7 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, userRole }) => {
             animate="visible"
             whileHover="hover"
             // transition={{ delay:  0.1 }}
-            onClick={() => setActiveItem(item.id)}
+            onClick={() => handleItem(item.id)}
             className={`w-full flex items-center space-x-3 p-3 rounded-xl transition-all duration-200 ${
               activeItem === item.id 
                 ? 'bg-blue-50 text-blue-600 border border-blue-200' 

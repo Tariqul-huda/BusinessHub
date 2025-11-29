@@ -6,6 +6,7 @@ import ChartSection from './ChartSection.jsx';
 import Sidebar from '../Sidebar.jsx';
 import TopBar from '../TopBar.jsx';
 import { apiService } from '../../services/mockData.js';
+
 import { 
   DollarSign, 
   TrendingUp, 
@@ -19,6 +20,7 @@ import {
 } from 'lucide-react';
 
 const Dashboard = () => {
+ 
   const [isCollapsed, setIsCollapsed] = useState(false);
   const { user, checkPermission } = useUser();
 
@@ -99,7 +101,7 @@ const Dashboard = () => {
     } else if (user.role === 'employee') {
       return allKPIs.filter(kpi => ['Active Employees'].includes(kpi.title));
     }
-    return allKPIs; // Admin and Manager see all
+    return allKPIs; 
   };
 
   const containerVariants = {

@@ -59,7 +59,6 @@ const TopBar = ({ user }) => {
             )}
           </motion.button>
 
-          {/* Notifications Dropdown */}
           {showNotifications && (
             <motion.div
               initial={{ opacity: 0, y: -10 }}
