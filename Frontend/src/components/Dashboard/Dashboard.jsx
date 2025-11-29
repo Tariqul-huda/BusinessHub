@@ -123,12 +123,12 @@ const Dashboard = () => {
     <div className="min-h-screen bg-gray-50">
       <div className="flex h-screen">
         {/* Sidebar */}
-        <Sidebar isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} userRole={user.role} />
+        {/* <Sidebar isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} userRole={user.role} /> */}
         
         {/* Main Content */}
         <div className="flex-1 flex flex-col overflow-hidden">
           {/* Top Bar */}
-          <TopBar user={user} />
+        
           
           {/* Dashboard Content */}
           <motion.div

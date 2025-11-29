@@ -10,7 +10,7 @@ const Inventory = ()=>{
     
     
     return <>
-   <Sidebar  isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} userRole={user.role} />
+   {/* <Sidebar  isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} userRole={user.role} /> */}
     </>
 }
 export default Inventory

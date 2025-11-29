@@ -46,13 +46,14 @@ const Sidebar = ({ isCollapsed, setIsCollapsed, userRole }) => {
   const handleItem = (id)=>{
     setActiveItem(id)
     // console.log(`/${id}`)
-      navigate(`/${id}`)
+    console.log(activeItem)
+      navigate(`/main/${id}`)
   }
   return (
     <motion.div
       variants={sidebarVariants}
       animate={isCollapsed ? "collapsed" : "expanded"}
-      className="bg-white border-r border-gray-200 shadow-lg flex flex-col h-full"
+      className="bg-white border-r border-gray-200 shadow-lg flex flex-col h-full fixed top-0 left-0 z-50 min-h-screen"
     >
       {/* Header */}
       <div className="p-4 border-b border-gray-200">
