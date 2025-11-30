@@ -1,11 +1,12 @@
 import Sidebar from "./components/Sidebar"
-import { useState } from "react"
-import { useUser } from "./contexts/UserContext";
+import { useState,useContext } from "react"
+
 import { Routes,Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Inventory from "./components/Inventory/Inventory";
 import TopBar from "./components/TopBar";
-
+import { UserProvider } from './contexts/UserContext.jsx';
+import { useUser } from "./contexts/UserContext.jsx"; 
 const Parent = ()=>{
     const [isCollapsed, setIsCollapsed] = useState(false)
     const { user, checkPermission } = useUser();

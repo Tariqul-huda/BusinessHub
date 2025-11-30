@@ -1,11 +1,15 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useContext } from 'react';
+// import { useUser } from '../../utils/user.js';
 import { useUser } from '../../contexts/UserContext.jsx';
 import KPI from './KPI.jsx';
 import ChartSection from './ChartSection.jsx';
 import Sidebar from '../Sidebar.jsx';
 import TopBar from '../TopBar.jsx';
 import { apiService } from '../../services/mockData.js';
+import { UserProvider } from '../../contexts/UserContext.jsx';
+import Header from '../../Utility/Header.jsx'
 
 import { 
   DollarSign, 
@@ -23,6 +27,7 @@ const Dashboard = () => {
  
   const [isCollapsed, setIsCollapsed] = useState(false);
   const { user, checkPermission } = useUser();
+  console.log(user)
 
   // Mock data - in real app, this would come from API
   const [dashboardData, setDashboardData] = useState({
@@ -121,13 +126,9 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="flex h-screen">
-        {/* Sidebar */}
-        {/* <Sidebar isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} userRole={user.role} /> */}
-        
+      <div className="flex h-screen">     
         {/* Main Content */}
         <div className="flex-1 flex flex-col overflow-hidden">
-          {/* Top Bar */}
         
           
           {/* Dashboard Content */}
@@ -138,12 +139,9 @@ const Dashboard = () => {
             className="flex-1 overflow-y-auto p-6"
           >
             {/* Header */}
-            <motion.div variants={itemVariants} className="mb-8">
-              <h1 className="text-3xl font-bold text-gray-800 mb-2">Dashboard</h1>
-              <p className="text-gray-600">Welcome back, {user.name}! Here's what's happening with your business.</p>
-            </motion.div>
+            <Header itemVariants  = {itemVariants} name = {user.name}/>
 
-            {/* Quick Actions */}
+            {/* Quick Actions
             <motion.div variants={itemVariants} className="mb-8">
               <div className="flex flex-wrap gap-4">
                 <motion.button
@@ -179,7 +177,7 @@ const Dashboard = () => {
                   <span>Refresh Data</span>
                 </motion.button>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* KPI Cards */}
             <motion.div variants={itemVariants} className="mb-8">
