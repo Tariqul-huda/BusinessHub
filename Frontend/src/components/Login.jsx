@@ -17,6 +17,7 @@ const Login = ()=>{
             
             if (id === 'admin' && password === 'password') {
                 navigate("/main/dashboard");
+                
             } else {
                 setToastMessage("Invalid ID or password. Please try again.");
                 setShowToast(true);

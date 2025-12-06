@@ -3,6 +3,9 @@ import { useState } from "react"
 import { useUser } from "../../contexts/UserContext"
 import { motion } from "framer-motion";
 import Sidebar from '../Sidebar.jsx';
+import Header from "../../Utility/Header.jsx";
+import { product } from "../../utils/prod.js";
+import Tb from "../../Utility/Tb.jsx";
 
 
 const Inventory = ()=>{
@@ -19,14 +22,15 @@ const Inventory = ()=>{
   }; 
     
     return <>
-   {/* <Sidebar  isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} userRole={user.role} /> */}
              <motion.div
             variants={containerVariants}
             initial="hidden"
             animate="visible"
             className="flex-1 overflow-y-auto p-6"
             >
-                <p>hello world</p>
+                <Header title={"Inventory"} description={"Here is the list of products"}/>
+                <Tb content={product}/>
+                
             </motion.div>
     </>
 }

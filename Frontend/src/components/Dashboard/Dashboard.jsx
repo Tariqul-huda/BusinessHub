@@ -139,7 +139,9 @@ const Dashboard = () => {
             className="flex-1 overflow-y-auto p-6"
           >
             {/* Header */}
-            <Header itemVariants  = {itemVariants} name = {user.name}/>
+            <Header itemVariants  = {itemVariants}  
+            title = {"Dashboard"} 
+            description={`Welcome back, ${user.name}! Here's what's happening with your business.`}/>
 
             {/* Quick Actions
             <motion.div variants={itemVariants} className="mb-8">
