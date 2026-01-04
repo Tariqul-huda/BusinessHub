@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Button from "./Button";
 import { useState } from "react";
-const Tb = ({content}) => {
+const Tb = ({content, add_text = "Add product"}) => {
     const head = Object.keys(content[0]);
 
     const values = content.map(el => Object.values(el));
@@ -13,8 +13,9 @@ const Tb = ({content}) => {
     return (
         <>
         <div className="flex justify-end">
-        <Button type="add" description="Add product" onClick = {()=>setOpen(true)}/>
+        <Button type="add" description={add_text} onClick = {()=>setOpen(true)}/>
         </div>
+        {/* Modal start */}
         {isOpen &&
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
     <motion.div
@@ -27,24 +28,31 @@ const Tb = ({content}) => {
             {head
             .filter((el) => el !== "ID") 
             .map((el, index) => (
-                <input 
-                key={index} 
-                placeholder={`Enter ${el}`} 
-                type="text" 
-                className="p-2 border rounded"
-                />
+                <div className="p-2">
+                    <input 
+                    key={index} 
+                    placeholder={`Enter ${el}`} 
+                    type="text" 
+                    className="p-2 border rounded w-[100%]"
+                    />
+
+                </div>
             ))
             }
-
+            <div className="flex justify-between p-2"
+            >
+                {/* submission button */}
+                <Button type={"add"} description={"Add"}/>
+                {/* cancel modal button */}
+                <Button type={"delete"} description={"Cancel"} onClick={handleDemo}/>
+            </div>
+        
         </form>
       
-      <button 
-        onClick={handleDemo}
-        className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
-      >
-        Close Modal
-      </button>
+      
     </motion.div>
+    {/* Modal close */}
+
   </div>
         }
         

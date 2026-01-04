@@ -7,6 +7,7 @@ import Inventory from "./components/Inventory/Inventory";
 import TopBar from "./components/TopBar";
 import { UserProvider } from './contexts/UserContext.jsx';
 import { useUser } from "./contexts/UserContext.jsx"; 
+import Sales from "./components/Sales/Sales.jsx";
 const Parent = ()=>{
     const [isCollapsed, setIsCollapsed] = useState(false)
     const { user, checkPermission } = useUser();
@@ -32,7 +33,7 @@ const Parent = ()=>{
                 <Routes>
                     <Route path="dashboard" element={<Dashboard />} /> 
                     <Route path="inventory" element = {<Inventory/>}/>
-                    <Route index element={<Dashboard />} /> 
+                    <Route path = "sales" element = {<Sales/>}/>
                 </Routes>
             </div>
         </>
