@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Button from "./Button";
 import { useState } from "react";
-const Tb = ({content, add_text = "Add product"}) => {
+const Tb = ({content, add_text = "Add product", box_color = {head_color:"bg-amber-100", border_color:"border-amber-300"}}) => {
     const head = Object.keys(content[0]);
 
     const values = content.map(el => Object.values(el));
@@ -59,12 +59,12 @@ const Tb = ({content, add_text = "Add product"}) => {
         {/* Main table starts from here  */}
 
         <div className="flex flex-col">
-            <div className="flex flex-row font-bold bg-amber-100">
+            <div className={`flex flex-row font-bold ${box_color.head_color}`}>
                 {head.map((el, index) => (
                     
                     <motion.div
                         key={index}
-                        className="flex-1 text-center border-2 border-amber-300 p-2"
+                        className={`flex-1 text-center border-2 ${box_color.border_color} p-2 `}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: index * 0.1 }}
@@ -90,7 +90,7 @@ const Tb = ({content, add_text = "Add product"}) => {
                             
                             <motion.div 
                                 key={colIndex} 
-                                className="flex-1 text-center border-2 border-amber-300 p-2"
+                                className={`flex-1 text-center border-2 ${box_color.border_color} p-2`}
                             >
                                 {v}
                             </motion.div>

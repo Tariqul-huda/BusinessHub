@@ -22,7 +22,12 @@ const Sales = ()=>{
             className="flex-1 overflow-y-auto p-6"
             >
                 <Header title={"Sales"} description={"Here is the all sales"}/>
-                <Tb content={sales} add_text="Add sales"/>
+               <Tb
+  content={sales}
+  add_text="Add sales"
+  box_color={{ head_color: "bg-blue-100",border_color: "border-blue-300" }}
+/>
+
                 
             </motion.div>
     </>
