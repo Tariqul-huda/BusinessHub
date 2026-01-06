@@ -1,20 +1,34 @@
 import { motion } from "framer-motion";
 import Button from "./Button";
 import { useState } from "react";
+import { LucideAArrowDown,LucideAArrowUp, } from "lucide-react";
+
 const Tb = ({content, add_text = "Add product", box_color = {head_color:"bg-amber-100", border_color:"border-amber-300"}}) => {
     const head = Object.keys(content[0]);
 
     const values = content.map(el => Object.values(el));
-    // console.log(values);
     const [isOpen, setOpen] = useState(false)
+    const [filterConfig, setFilterConfig] = useState({key:null,direction:"asc"});
+
+    const handleFilter =(col)=>{
+        let direction = "asc"
+        if(filterConfig.key===col && filterConfig.direction=="asc"){
+            direction = "desc"
+        }
+       setFilterConfig({key:col,direction:direction})
+    }
     const handleDemo = ()=>{
         setOpen(false);
     }
     return (
         <>
+        {/* Button */}
+
         <div className="flex justify-end">
+        {/* <Sort values={head}/> */}
         <Button type="add" description={add_text} onClick = {()=>setOpen(true)}/>
         </div>
+
         {/* Modal start */}
         {isOpen &&
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
@@ -61,16 +75,28 @@ const Tb = ({content, add_text = "Add product", box_color = {head_color:"bg-ambe
         <div className="flex flex-col">
             <div className={`flex flex-row font-bold ${box_color.head_color}`}>
                 {head.map((el, index) => (
-                    
+                    <>
                     <motion.div
                         key={index}
                         className={`flex-1 text-center border-2 ${box_color.border_color} p-2 `}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: index * 0.1 }}
+                        
                     >
                         {el}
+                <motion.button onClick={() => handleFilter(el)} className="hover:bg-black/5 rounded p-1 mx-3 my-auto h-6">
+          
+            {filterConfig.key === el ? (
+                filterConfig.direction === 'asc' ? <LucideAArrowUp size={16}/> : <LucideAArrowDown size={16}/>
+            ) : (
+                <LucideAArrowUp size={16} className="opacity-20" />
+            )}
+        </motion.button>
                     </motion.div>
+
+         
+                    </>
                 ))}
             </div>
 
