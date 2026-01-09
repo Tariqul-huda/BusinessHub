@@ -142,45 +142,7 @@ const Dashboard = () => {
             <Header itemVariants  = {itemVariants}  
             title = {"Dashboard"} 
             description={`Welcome back, ${user.name}! Here's what's happening with your business.`}/>
-
-            {/* Quick Actions
-            <motion.div variants={itemVariants} className="mb-8">
-              <div className="flex flex-wrap gap-4">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center space-x-2 px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-600 transition-colors"
-                >
-                  <Plus className="w-4 h-4" />
-                  <span>Add Sale</span>
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center space-x-2 px-4 py-2 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-colors"
-                >
-                  <Users className="w-4 h-4" />
-                  <span>Add Employee</span>
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center space-x-2 px-4 py-2 bg-purple-500 text-white rounded-xl hover:bg-purple-600 transition-colors"
-                >
-                  <Download className="w-4 h-4" />
-                  <span>Generate Report</span>
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center space-x-2 px-4 py-2 bg-gray-500 text-white rounded-xl hover:bg-gray-600 transition-colors"
-                >
-                  <RefreshCw className="w-4 h-4" />
-                  <span>Refresh Data</span>
-                </motion.button>
-              </div>
-            </motion.div> */}
-
+            
             {/* KPI Cards */}
             <motion.div variants={itemVariants} className="mb-8">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">Key Performance Indicators</h2>

@@ -1,0 +1,72 @@
+export const employees = [
+  {
+    employeeId: 1,
+    firstName: "Rahim",
+    lastName: "Uddin",
+    email: "rahim.uddin@businesshub.com",
+    phoneNumber: "01712345678",
+    department: "Human Resources",
+    designation: "HR Executive",
+    employmentType: "Full-Time",
+    salary: 45000,
+    dateOfJoining: "2023-01-15",
+    status: "Active",
+    profilePicture: "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    employeeId: 2,
+    firstName: "Karim",
+    lastName: "Ahmed",
+    email: "karim.ahmed@businesshub.com",
+    phoneNumber: "01898765432",
+    department: "Sales",
+    designation: "Sales Manager",
+    employmentType: "Full-Time",
+    salary: 65000,
+    dateOfJoining: "2022-08-01",
+    status: "Active",
+    profilePicture: "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    employeeId: 3,
+    firstName: "Nusrat",
+    lastName: "Jahan",
+    email: "nusrat.jahan@businesshub.com",
+    phoneNumber: "01611223344",
+    department: "Accounts",
+    designation: "Accountant",
+    employmentType: "Full-Time",
+    salary: 52000,
+    dateOfJoining: "2023-04-10",
+    status: "Active",
+    profilePicture: "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    employeeId: 4,
+    firstName: "Sabbir",
+    lastName: "Hossain",
+    email: "sabbir.hossain@businesshub.com",
+    phoneNumber: "01955667788",
+    department: "IT",
+    designation: "Software Engineer",
+    employmentType: "Contract",
+    salary: 70000,
+    dateOfJoining: "2024-02-20",
+    status: "Active",
+    profilePicture: "https://randomuser.me/api/portraits/men/76.jpg"
+  },
+  {
+    employeeId: 5,
+    firstName: "Mithila",
+    lastName: "Roy",
+    email: "mithila.roy@businesshub.com",
+    phoneNumber: "01533445566",
+    department: "Marketing",
+    designation: "Marketing Officer",
+    employmentType: "Part-Time",
+    salary: 30000,
+    dateOfJoining: "2023-11-05",
+    status: "Inactive",
+    profilePicture: "https://randomuser.me/api/portraits/women/48.jpg"
+  }
+];
