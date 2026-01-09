@@ -1,6 +1,7 @@
 import Header from "../../Utility/Header"
 import { motion } from "framer-motion"
-import Profile from "../../Utility/Profile";
+import Employee from "./Employee";
+
 const HR = ()=>{
      const containerVariants = {
     hidden: { opacity: 0 },
@@ -19,8 +20,9 @@ const HR = ()=>{
             animate = "visible"
             className="flex-1 overflow-y-auto p-6"
         >
-        {/* <Header title={"Human Resource Management"}></Header> */}
-        <Profile userID={5}/>
+        <Header title={"Human Resource Management"}></Header>
+        <Employee/>
+       
         </motion.div>
         </>
     )

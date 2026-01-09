@@ -13,7 +13,7 @@ export const UserProvider = ({ children }) => {
     id: 1,
     name: "MD. Tariqul Huda",
     email: "tariqulhuda6@gmail.com",
-    role: "manager", // admin, manager, sales, inventory, hr, employee
+    role: "admin", // admin, manager, sales, inventory, hr, employee
     avatar: null,
     permissions: [],
     lastLogin: new Date().toISOString()
