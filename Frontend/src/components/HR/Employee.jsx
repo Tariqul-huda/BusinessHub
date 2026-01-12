@@ -2,11 +2,11 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { employees } from "../../utils/employees";
 import Header from "../../Utility/Header";
+import AddButton from "../../Utility/AddButton";
 
 const Employee = () => {
   const navigate = useNavigate();
 
-  
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -22,17 +22,28 @@ const Employee = () => {
     visible: { opacity: 1, y: 0 }
   };
 
-  const handleProfile = (user)=>{
-    // console.log(`main/profile/${user.employeeId}`)
-    navigate(`profile/${user.employeeId}`)
-  }
+  const handleProfile = (user) => {
+    navigate(`profile/${user.employeeId}`);
+  };
+
+  const handleAddEmployee = () => {
+   
+    navigate('add'); 
+  };
 
   return (
     <div className="bg-gray-50 min-h-screen p-8">
       <div className="max-w-7xl mx-auto">
         
-        {/* Page Header */}
-        <Header title="Employee Directory" description={"Manage and view your team members"}/>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+
+          <div className="flex-1">
+             <Header title="Employee Directory" description={"Manage and view your team members"}/>
+          </div>
+          <div className="flex-shrink-0">
+             <AddButton onClick={handleAddEmployee} />
+          </div>
+        </div>
 
         {/* Employee Grid */}
         <motion.div 
