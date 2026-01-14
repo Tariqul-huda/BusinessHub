@@ -10,6 +10,11 @@ import { useUser } from "./contexts/UserContext.jsx";
 import Sales from "./components/Sales/Sales.jsx";
 import HR from "./components/HR/HR.jsx";
 import Profile from "./Utility/Profile.jsx";
+import CreateProfile from "./Utility/CreateProfile.jsx";
+import Payroll from "./components/HR/Payroll.jsx";
+import Reports from "./components/Reports/Reports.jsx";
+import SystemSettings from "./components/Settings/SystemSettings.jsx";
+import ProfileSettings from "./components/Settings/ProfileSettings.jsx";
 const Parent = ()=>{
     const [isCollapsed, setIsCollapsed] = useState(false)
     const { user, checkPermission } = useUser();
@@ -27,7 +32,7 @@ const Parent = ()=>{
                 style={{ 
                     paddingLeft: sidebarWidth, 
                     transition: 'padding-left 0.3s ease',
-                    width: '100%', 
+                    width: '100%',
                     minHeight: '100vh',
                 }}
             >
@@ -38,6 +43,12 @@ const Parent = ()=>{
                     <Route path = "sales" element = {<Sales/>}/>
                     <Route path = "hr" element = {<HR/>}/>
                     <Route path="hr/profile/:id" element={<Profile />} />
+                    <Route path = "hr/profile/create" element = {<CreateProfile/>}/>
+                    <Route path = "hr/payroll" element = {<Payroll/>}/>
+                    <Route path = "reports" element = {<Reports/>}/>
+                    <Route path = "settings" element = {<SystemSettings/>}/>
+                    <Route path = "profile/settings" element = {<ProfileSettings/>}/>
+
                 </Routes>
             </div>
         </>

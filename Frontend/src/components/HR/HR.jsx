@@ -1,6 +1,7 @@
 import Header from "../../Utility/Header"
 import { motion } from "framer-motion"
 import Employee from "./Employee";
+import Payroll from "./Payroll";
 
 const HR = ()=>{
      const containerVariants = {
@@ -22,6 +23,7 @@ const HR = ()=>{
         >
         <Header title={"Human Resource Management"}></Header>
         <Employee/>
+        <Payroll/>
        
         </motion.div>
         </>

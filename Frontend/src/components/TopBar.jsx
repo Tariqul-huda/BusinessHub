@@ -1,27 +1,39 @@
 import { motion } from 'framer-motion';
-import { Search, Bell, User, Settings } from 'lucide-react';
+import { Search, Bell, User, Settings, LogOut } from 'lucide-react';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const TopBar = ({ user }) => {
   const [searchQuery, setSearchQuery] = useState('');
   const [showNotifications, setShowNotifications] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
+  
+  const navigate = useNavigate();
+
   const [notifications, setNotifications] = useState([
     { id: 1, title: "Low Stock Alert", message: "5 items below threshold", time: "2 min ago", type: "warning" },
     { id: 2, title: "New Sale", message: "Order #1234 completed", time: "15 min ago", type: "success" },
     { id: 3, title: "Payroll Due", message: "Monthly payroll processing", time: "1 hour ago", type: "info" }
   ]);
 
+  // 1. FIX: Add 'path' property with a leading slash '/' (Absolute Path)
   const userMenuItems = [
-    { label: "Profile", icon: User },
-    { label: "Settings", icon: Settings },
-    { label: "Logout", icon: Bell }
+    // { label: "Profile", icon: User, path: '/profile' }, 
+    { label: "Settings", icon: Settings, path: 'profile/settings' },
+    { label: "Logout", icon: LogOut, path: '/login' }
   ];
 
   const handleMarkAllAsRead = () => {
     setNotifications([]);
     setShowNotifications(false);
-  };
+  }
+
+  // 2. FIX: Use the explicit path from the item
+  const handleMenuClick = (path) => {
+     setShowUserMenu(false); // Close menu on click
+     console.log(path)
+     navigate(path);
+  }
 
   return (
     <motion.div
@@ -83,7 +95,6 @@ const TopBar = ({ user }) => {
                       <Bell className="w-8 h-8 mx-auto" />
                     </div>
                     <p className="text-gray-500 text-sm">No notifications</p>
-                    <p className="text-gray-400 text-xs mt-1">You're all caught up!</p>
                   </div>
                 ) : (
                   notifications.map((notification) => (
@@ -111,6 +122,7 @@ const TopBar = ({ user }) => {
           )}
         </div>
 
+        {/* User Menu */}
         <div className="relative">
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -122,7 +134,7 @@ const TopBar = ({ user }) => {
                 {user?.name?.charAt(0) || 'U'}
               </span>
             </div>
-            <div className="text-left">
+            <div className="text-left hidden sm:block">
               <p className="font-medium text-gray-800">{user?.name || 'User'}</p>
               <p className="text-xs text-gray-500 capitalize">{user?.role || 'Employee'}</p>
             </div>
@@ -132,17 +144,17 @@ const TopBar = ({ user }) => {
             <motion.div
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-gray-200 z-50"
+              className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-gray-200 z-50 overflow-hidden"
             >
               {userMenuItems.map((item, index) => (
-                <motion.button
+                <button
                   key={index}
-                  whileHover={{ backgroundColor: "rgba(59, 130, 246, 0.05)" }}
-                  className="w-full flex items-center space-x-3 p-3 text-left hover:bg-blue-50 transition-colors first:rounded-t-xl last:rounded-b-xl"
+                  className="w-full flex items-center space-x-3 p-3 text-left hover:bg-blue-50 transition-colors text-sm text-gray-700"
+                  onClick={() => handleMenuClick(item.path)}
                 >
-                  <item.icon className="w-4 h-4 text-gray-600" />
-                  <span className="text-gray-700">{item.label}</span>
-                </motion.button>
+                  <item.icon className="w-4 h-4 text-gray-500" />
+                  <span>{item.label}</span>
+                </button>
               ))}
             </motion.div>
           )}

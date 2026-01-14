@@ -13,7 +13,8 @@ function App() {
           
           <Routes>
             <Route path="/" element={<Login />} />
-            <Route path="/main/*" element = {<Parent/>} />
+            <Route path="/main/*" element = {<Parent/>} />  
+            
             <Route path="*" element={<Navigate to="/" replace />} />
             
           </Routes>

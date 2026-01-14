@@ -84,16 +84,58 @@ const Dashboard = () => {
       loadDashboardData();
     }
   }, [user]);
-
-  // Get KPIs based on user role
   const getKPIs = () => {
+    if (!dashboardData?.kpis) return [];
+
     const allKPIs = [
-      { title: "Total Sales Today", value: dashboardData.kpis.totalSales.value, change: dashboardData.kpis.totalSales.change, trend: dashboardData.kpis.totalSales.trend, icon: DollarSign, color: "green" },
-      { title: "Monthly Revenue", value: dashboardData.kpis.monthlyRevenue.value, change: dashboardData.kpis.monthlyRevenue.change, trend: dashboardData.kpis.monthlyRevenue.trend, icon: TrendingUp, color: "blue" },
-      { title: "Low Stock Items", value: dashboardData.kpis.lowStockItems.value, change: dashboardData.kpis.lowStockItems.change, trend: dashboardData.kpis.lowStockItems.trend, icon: AlertTriangle, color: "red" },
-      { title: "Active Employees", value: dashboardData.kpis.activeEmployees.value, change: dashboardData.kpis.activeEmployees.change, trend: dashboardData.kpis.activeEmployees.trend, icon: Users, color: "purple" },
-      { title: "Pending Payrolls", value: dashboardData.kpis.pendingPayrolls.value, change: dashboardData.kpis.pendingPayrolls.change, trend: dashboardData.kpis.pendingPayrolls.trend, icon: FileText, color: "yellow" },
-      { title: "AI Prediction", value: dashboardData.kpis.aiPrediction.value, change: dashboardData.kpis.aiPrediction.change, trend: dashboardData.kpis.aiPrediction.trend, icon: Brain, color: "indigo" }
+      { 
+        title: "Total Sales Today", 
+        value: dashboardData.kpis?.totalSales?.value || "$0", 
+        change: dashboardData.kpis?.totalSales?.change || "0%", 
+        trend: dashboardData.kpis?.totalSales?.trend || "neutral", 
+        icon: DollarSign, 
+        color: "green" 
+      },
+      { 
+        title: "Monthly Revenue", 
+        value: dashboardData.kpis?.monthlyRevenue?.value || "$0", 
+        change: dashboardData.kpis?.monthlyRevenue?.change || "0%", 
+        trend: dashboardData.kpis?.monthlyRevenue?.trend || "neutral", 
+        icon: TrendingUp, 
+        color: "blue" 
+      },
+      { 
+        title: "Low Stock Items", 
+        value: dashboardData.kpis?.lowStockItems?.value || "0", 
+        change: dashboardData.kpis?.lowStockItems?.change || "0", 
+        trend: dashboardData.kpis?.lowStockItems?.trend || "neutral", 
+        icon: AlertTriangle, 
+        color: "red" 
+      },
+      { 
+        title: "Active Employees", 
+        value: dashboardData.kpis?.activeEmployees?.value || "0", 
+        change: dashboardData.kpis?.activeEmployees?.change || "0", 
+        trend: dashboardData.kpis?.activeEmployees?.trend || "neutral", 
+        icon: Users, 
+        color: "purple" 
+      },
+      { 
+        title: "Pending Payrolls", 
+        value: dashboardData.kpis?.pendingPayrolls?.value || "0", 
+        change: dashboardData.kpis?.pendingPayrolls?.change || "0", 
+        trend: dashboardData.kpis?.pendingPayrolls?.trend || "neutral", 
+        icon: FileText, 
+        color: "yellow" 
+      },
+      { 
+        title: "AI Prediction", 
+        value: dashboardData.kpis?.aiPrediction?.value || "N/A", 
+        change: dashboardData.kpis?.aiPrediction?.change || "", 
+        trend: dashboardData.kpis?.aiPrediction?.trend || "neutral", 
+        icon: Brain, 
+        color: "indigo" 
+      }
     ];
 
     // Filter KPIs based on user role
@@ -108,7 +150,6 @@ const Dashboard = () => {
     }
     return allKPIs; 
   };
-
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
