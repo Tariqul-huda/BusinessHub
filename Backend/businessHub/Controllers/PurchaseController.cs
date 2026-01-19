@@ -1,4 +1,5 @@
-﻿using businessHub.Models;
+﻿using businessHub.Data;
+using businessHub.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace businessHub.Controllers

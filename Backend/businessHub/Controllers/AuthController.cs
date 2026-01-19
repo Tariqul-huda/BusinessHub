@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using businessHub.Models;
 using Microsoft.EntityFrameworkCore;
+using businessHub.Services;
+using businessHub.Data;
+//using BCrypt.Net;
+
 namespace businessHub.Controllers
 {
 
@@ -10,9 +14,11 @@ namespace businessHub.Controllers
     public class AuthController : Controller
     {
            private readonly AppDbContext _context;
-           public AuthController(AppDbContext context)
+            private readonly JwtService _jwtService;
+           public AuthController(AppDbContext context, JwtService jwtService)
         {
             _context = context;
+            _jwtService = jwtService;
         }
         [HttpPost("Register")]
         public IActionResult register(User user)
@@ -29,7 +35,14 @@ namespace businessHub.Controllers
             var user = _context.Users.Include(x => x.Role).FirstOrDefault(u => u.Email == email);
             if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.Password))
                 return Unauthorized();
-            return Ok(new { user.Id, user.Name, Role = user.Role.Name });
+            var token = _jwtService.GenerateToken(user);
+
+            return Ok(new
+            {
+                token,
+                user.Name,
+                role = user.Role.Name
+            });
         }
 
 
