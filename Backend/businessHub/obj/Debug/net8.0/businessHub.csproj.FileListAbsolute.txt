@@ -120,3 +120,4 @@ C:\Users\tariq\Documents\Github\BusinessHub\Backend\businessHub\bin\Debug\net8.0
 C:\Users\tariq\Documents\Github\BusinessHub\Backend\businessHub\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\tariq\Documents\Github\BusinessHub\Backend\businessHub\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\tariq\Documents\Github\BusinessHub\Backend\businessHub\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tariq\Documents\Github\BusinessHub\Backend\businessHub\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

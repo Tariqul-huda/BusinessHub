@@ -3,44 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\userservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\userservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,67 +114,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JWTService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
-              "RelativeDocumentMoniker": "Services\\JWTService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
-              "RelativeToolTip": "Services\\JWTService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:15:13.777Z",
+              "WhenOpened": "2026-01-20T13:28:51.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SalesService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
-              "RelativeDocumentMoniker": "Services\\SalesService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
-              "RelativeToolTip": "Services\\SalesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:36.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserServicecs.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\UserServicecs.cs",
-              "RelativeDocumentMoniker": "Services\\UserServicecs.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\UserServicecs.cs",
-              "RelativeToolTip": "Services\\UserServicecs.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:05.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T13:12:11.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T15:26:15.693Z",
               "EditorCaption": ""
@@ -207,64 +163,39 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABpAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-19T18:42:47.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\InventoryService.cs",
-              "RelativeDocumentMoniker": "Services\\InventoryService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\InventoryService.cs",
-              "RelativeToolTip": "Services\\InventoryService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SalesService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
+              "RelativeDocumentMoniker": "Services\\SalesService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
+              "RelativeToolTip": "Services\\SalesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:20.587Z",
+              "WhenOpened": "2026-01-19T20:07:36.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "Services\\JWTService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
+              "RelativeToolTip": "Services\\JWTService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T17:15:13.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:08:11.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\ReportService.cs",
-              "RelativeToolTip": "Services\\ReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:08:52.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PurchaseService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PurchaseService.cs",
-              "RelativeDocumentMoniker": "Services\\PurchaseService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PurchaseService.cs",
-              "RelativeToolTip": "Services\\PurchaseService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:52.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "PayrollService.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PayrollService.cs",
               "RelativeDocumentMoniker": "Services\\PayrollService.cs",
@@ -276,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "AiInsightService.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\AiInsightService.cs",
               "RelativeDocumentMoniker": "Services\\AiInsightService.cs",
@@ -288,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "SalesController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\SalesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SalesController.cs",
@@ -300,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "ReportController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
@@ -312,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "PurchaseController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\PurchaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\PurchaseController.cs",
@@ -324,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "PayrollController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\PayrollController.cs",
               "RelativeDocumentMoniker": "Controllers\\PayrollController.cs",
@@ -336,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
@@ -348,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
@@ -360,19 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:41:34.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -384,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "PurchaseItem.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\PurchaseItem.cs",
               "RelativeDocumentMoniker": "Models\\PurchaseItem.cs",
@@ -396,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "Payroll.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\Payroll.cs",
               "RelativeDocumentMoniker": "Models\\Payroll.cs",
@@ -408,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "RegisterDtor.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\DTO\\RegisterDtor.cs",
               "RelativeDocumentMoniker": "DTO\\RegisterDtor.cs",
@@ -420,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 15,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\DTO\\LoginDto.cs",
               "RelativeDocumentMoniker": "DTO\\LoginDto.cs",
@@ -432,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 16,
               "Title": "SaleItemDto.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\DTO\\SaleItemDto.cs",
               "RelativeDocumentMoniker": "DTO\\SaleItemDto.cs",
@@ -444,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "Purchase.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\Purchase.cs",
               "RelativeDocumentMoniker": "Models\\Purchase.cs",
@@ -456,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "SaleItem.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\SaleItem.cs",
               "RelativeDocumentMoniker": "Models\\SaleItem.cs",
@@ -468,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\Sale.cs",
               "RelativeDocumentMoniker": "Models\\Sale.cs",
@@ -480,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "InventoryTransaction.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\InventoryTransaction.cs",
               "RelativeDocumentMoniker": "Models\\InventoryTransaction.cs",
@@ -492,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -504,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

@@ -51,8 +51,13 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddScoped<JwtService>();
+builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<InventoryService>();
 builder.Services.AddScoped<SalesService>();
+builder.Services.AddScoped<PurchaseService>();
+builder.Services.AddScoped<EmployeeService>();
+builder.Services.AddScoped<PayrollService>();
+builder.Services.AddScoped<ReportService>();
 builder.Services.AddScoped<AiInsightService>();
 
 builder.Services.AddControllers();

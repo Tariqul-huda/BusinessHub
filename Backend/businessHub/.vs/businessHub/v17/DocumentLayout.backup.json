@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +23,12 @@
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\userservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\services\\aiinsightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5ACCE2B6-E4FE-4AE7-8FC0-4918A34857D6}|businessHub.csproj|c:\\users\\tariq\\documents\\github\\businesshub\\backend\\businesshub\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,89 +134,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JWTService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
-              "RelativeDocumentMoniker": "Services\\JWTService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
-              "RelativeToolTip": "Services\\JWTService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBcAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:15:13.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PayrollService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PayrollService.cs",
-              "RelativeDocumentMoniker": "Services\\PayrollService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PayrollService.cs",
-              "RelativeToolTip": "Services\\PayrollService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:08:24.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PurchaseService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PurchaseService.cs",
-              "RelativeDocumentMoniker": "Services\\PurchaseService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PurchaseService.cs",
-              "RelativeToolTip": "Services\\PurchaseService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:52.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\ReportService.cs",
-              "RelativeToolTip": "Services\\ReportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:08:52.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SalesService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
-              "RelativeDocumentMoniker": "Services\\SalesService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
-              "RelativeToolTip": "Services\\SalesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:36.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserServicecs.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\UserServicecs.cs",
-              "RelativeDocumentMoniker": "Services\\UserServicecs.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\UserServicecs.cs",
-              "RelativeToolTip": "Services\\UserServicecs.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:05.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -229,33 +151,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T15:26:15.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:08:11.192Z",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T18:42:47.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "InventoryService.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\InventoryService.cs",
               "RelativeDocumentMoniker": "Services\\InventoryService.cs",
@@ -263,12 +185,109 @@
               "RelativeToolTip": "Services\\InventoryService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:07:20.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T20:07:20.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T20:08:11.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\ReportService.cs",
+              "RelativeToolTip": "Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T20:08:52.732Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "PurchaseService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PurchaseService.cs",
+              "RelativeDocumentMoniker": "Services\\PurchaseService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PurchaseService.cs",
+              "RelativeToolTip": "Services\\PurchaseService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T20:07:52.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T20:41:34.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserServicecs.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\UserServicecs.cs",
+              "RelativeDocumentMoniker": "Services\\UserServicecs.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\UserServicecs.cs",
+              "RelativeToolTip": "Services\\UserServicecs.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T20:07:05.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SalesService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
+              "RelativeDocumentMoniker": "Services\\SalesService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\SalesService.cs",
+              "RelativeToolTip": "Services\\SalesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T20:07:36.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "Services\\JWTService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\JWTService.cs",
+              "RelativeToolTip": "Services\\JWTService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAArwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T17:15:13.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PayrollService.cs",
+              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PayrollService.cs",
+              "RelativeDocumentMoniker": "Services\\PayrollService.cs",
+              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\PayrollService.cs",
+              "RelativeToolTip": "Services\\PayrollService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T20:08:24.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AiInsightService.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Services\\AiInsightService.cs",
               "RelativeDocumentMoniker": "Services\\AiInsightService.cs",
@@ -276,12 +295,11 @@
               "RelativeToolTip": "Services\\AiInsightService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T20:09:12.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T20:09:12.843Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SalesController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\SalesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SalesController.cs",
@@ -289,12 +307,11 @@
               "RelativeToolTip": "Controllers\\SalesController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAxwA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:26:16.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T15:26:16.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ReportController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
@@ -302,12 +319,11 @@
               "RelativeToolTip": "Controllers\\ReportController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:43:53.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T20:43:53.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "PurchaseController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\PurchaseController.cs",
               "RelativeDocumentMoniker": "Controllers\\PurchaseController.cs",
@@ -315,12 +331,11 @@
               "RelativeToolTip": "Controllers\\PurchaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T15:28:04.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T15:28:04.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PayrollController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\PayrollController.cs",
               "RelativeDocumentMoniker": "Controllers\\PayrollController.cs",
@@ -328,12 +343,11 @@
               "RelativeToolTip": "Controllers\\PayrollController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:43:41.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T20:43:41.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\InventoryController.cs",
@@ -341,12 +355,11 @@
               "RelativeToolTip": "Controllers\\InventoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:42:12.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T20:42:12.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
@@ -354,25 +367,11 @@
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:43:20.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T20:43:20.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-17T20:41:34.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -380,8 +379,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T12:51:30.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T12:51:30.653Z"
             },
             {
               "$type": "Document",
@@ -393,8 +391,7 @@
               "RelativeToolTip": "Models\\PurchaseItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:49:59.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:49:59.494Z"
             },
             {
               "$type": "Document",
@@ -406,21 +403,7 @@
               "RelativeToolTip": "Models\\Payroll.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:50:26.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\tariq\\Documents\\Github\\BusinessHub\\Backend\\businessHub\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-19T18:42:47.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:50:26.393Z"
             },
             {
               "$type": "Document",
@@ -432,8 +415,7 @@
               "RelativeToolTip": "DTO\\RegisterDtor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:05:52.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T17:05:52.054Z"
             },
             {
               "$type": "Document",
@@ -445,8 +427,7 @@
               "RelativeToolTip": "DTO\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:06:14.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T17:06:14.104Z"
             },
             {
               "$type": "Document",
@@ -458,8 +439,7 @@
               "RelativeToolTip": "DTO\\SaleItemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T17:09:01.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T17:09:01.38Z"
             },
             {
               "$type": "Document",
@@ -471,8 +451,7 @@
               "RelativeToolTip": "Models\\Purchase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:49:46.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:49:46.487Z"
             },
             {
               "$type": "Document",
@@ -484,8 +463,7 @@
               "RelativeToolTip": "Models\\SaleItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:49:28.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:49:28.093Z"
             },
             {
               "$type": "Document",
@@ -497,8 +475,7 @@
               "RelativeToolTip": "Models\\Sale.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:49:15.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:49:15.673Z"
             },
             {
               "$type": "Document",
@@ -510,8 +487,7 @@
               "RelativeToolTip": "Models\\InventoryTransaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:48:59.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:48:59.709Z"
             },
             {
               "$type": "Document",
@@ -523,8 +499,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T14:48:39.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T14:48:39.993Z"
             },
             {
               "$type": "Document",
@@ -536,8 +511,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-17T13:13:14.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T13:13:14.904Z"
             }
           ]
         }
